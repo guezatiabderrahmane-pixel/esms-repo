@@ -8,27 +8,55 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-
+    background-color: #1b2238; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 .img-logo{
-    height: 40px; 
+    height: 60px;
+    width: auto;
+}
+
+.img-logo2{
+    height: 60px;
     width: auto;
 }
  .navbar ul {
     list-style: none;
     display: flex;
-    gap: 30px; 
+    gap: 50px; 
     margin: 0;
     padding: 0;
  }
  .navbar ul li a {
     color: #ffffff;
     text-decoration: none; 
-    font-size: 14px;
+    position: relative;
+    padding-bottom: 5px;
+    font-size: 20px;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
+.navbar ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e5c158; 
+    transition: width 0.3s ease; 
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
 .navbar ul li a:hover {
     color: #e5c158;
+}
+.logo-t{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
