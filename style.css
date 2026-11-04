@@ -61,6 +61,12 @@ body {
     align-items: center;
     gap: 15px;
 }
+
+.about {
+    position: relative;
+    margin-top: 40px; /* Creates a clean separate margin below the navbar */
+    height: 650px;     /* Gives the section height so absolute children flow inside it */
+}
 .title{
    
 
@@ -68,7 +74,7 @@ position: absolute;
 width: 171px;
 height: 58px;
 left: 90px;
-top: 1082px;
+top: 30px;
 
 font-family: 'Inter', sans-serif;
 font-style: normal;
@@ -93,7 +99,7 @@ position: absolute;
 width: 689px;
 height: 77px;
 left: 90px;
-top: 1163px;
+top: 110px;
 
 font-family: 'Inria Serif';
 font-style: normal;
@@ -112,7 +118,7 @@ position: absolute;
 width: 689px;
 height: 77px;
 left: 90px;
-top: 1163px;
+top: 110px;
 
 font-family: 'Inria Serif';
 font-style: normal;
@@ -133,7 +139,7 @@ color: #FFFFFF;
     width: 689px;
     height: 77px;
     left: 325px;
-    top: 1163px;
+    top: 110px;
 
     font-family: 'Inria Serif';
     font-style: normal;
@@ -172,7 +178,7 @@ color: #FFFFFF;
     width: 630px;
     height: 161px;
     left: 90px;
-    top: 1277px;
+    top: 220px;
     font-family: 'Inter', sans-serif; 
     font-style: normal;
     font-weight: 400; 
@@ -191,7 +197,7 @@ position: absolute;
 width: 913px;
 height: 609px;
 right: -11px;
-top: 1053px;
+top: 0px;
 
 background: url(image.png);
 
@@ -213,7 +219,7 @@ background: url(image.png);
     width: 473px;
     height: 316px;
     left: -70px;    
-    top: 1520px;
+    top: 460px;
     z-index: 1;
 
   
@@ -226,7 +232,7 @@ background: url(image.png);
     width: 269px;
     height: 48px;
     left: 100px;
-    top: 1493px;
+    top: 435px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -243,7 +249,7 @@ animation: fadeInUp 1s ease-out forwards;
     width: 269px;
     height: 48px;
     left: 100px;
-    top: 1493px;
+    top: 435px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -272,3 +278,4 @@ animation: fadeInUp 1s ease-out forwards;
 .learnmore:hover::after {
     width: 100%;
 }
+
